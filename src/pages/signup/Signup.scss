@@ -1,0 +1,44 @@
+.singUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.s_right {
+    height: auto;
+    margin: 20px;
+    width: 40%;
+}
+
+.s_left {
+    height: auto;
+    margin: 20px;
+    width: 60%;
+}
+
+.s_right img {
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+@media(max-width:825px) {
+    .singUp {
+        flex-direction: column-reverse;
+    }
+
+    .s_right {
+        width: 90%;
+        text-align: center;
+    }
+
+    .s_right img {
+        width: 50%;
+    }
+
+    .s_left {
+        width: 90%;
+    }
+}
